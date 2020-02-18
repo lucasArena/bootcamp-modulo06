@@ -21,7 +21,7 @@ function Route() {
   return (
     <NavigationContainer>
       <Routes.Navigator>
-        <Routes.Screen name="Main" component={Main} options={options} />
+        <Routes.Screen name="Github Fun" component={Main} options={options} />
         <Routes.Screen name="User" component={User} options={options} />
       </Routes.Navigator>
     </NavigationContainer>

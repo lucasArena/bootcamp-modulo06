@@ -4,7 +4,7 @@ if (__DEV__) {
   const tron = Reactotron.configure()
     .useReactNative()
     .connect({
-      host: '192.168.15.106',
+      host: '192.168.1.188',
     });
 
   console.tron = tron;
